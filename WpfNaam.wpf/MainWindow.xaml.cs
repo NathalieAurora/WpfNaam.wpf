@@ -24,5 +24,12 @@ namespace WpfNaam.wpf
         {
             InitializeComponent();
         }
+
+        private void btnKnop_Click(object sender, RoutedEventArgs e)
+        {
+            string naam = txtNaam.Text;
+
+            lblOutput.Content = "Jou naam is " + naam;
+        }
     }
 }
